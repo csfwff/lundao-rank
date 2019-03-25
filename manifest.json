@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "js": [ "js/jquery-2.1.4.min.js", "js/content_action.js" ],
+      "matches": [ "*://*.lundao.pub/*" ]
+   } ],
+   "description": "获取用户是论道第几个注册的",
+   "icons": {
+      "128": "icon/128.png",
+      "48": "icon/48.png"
+   },
+   "manifest_version": 3,
+   "name": "在论道你算老几",
+   "permissions": [ "*://*.lundao.pub/*" ],
+   "version": "4.0"
+}
